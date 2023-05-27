@@ -1,0 +1,16 @@
+git branch : this will tell the total number of branch created in the repo.
+
+git branch branchname : this will create a new branch as per the given name.
+
+git checkout branchname : this will point to the respective branch.
+
+now make changes to the respective branch
+
+git add filepath
+i.e. git add src/learn/GitBranchingConcept.txt
+
+git status
+
+git commit -m "second commit"
+
+git push origin conceptofbranching
