@@ -1,0 +1,40 @@
+This is a tutorial to learn Git
+This is a tutorial to develop basic understanding of Git
+
+Create a project at your local machine.
+Create a repo at remote i.e. at GitHub.
+
+Write codes into your project folder
+
+Open cmd and navigate to current project directory using command
+
+cd location of project inside local machine
+
+Write Git Command in the sequence:
+
+git init : The git init command is used to create a new blank repository. 
+It is used to make an existing project as a Git project.
+
+git remote add origin (location of project on github)
+i.e. git remote add origin https://github.com/prakhar877078/GitTest
+git remote add origin https://github.com/prakhar877078/GitTest.git
+
+git status
+
+add .gitignore file to current project in local machine.
+
+git status
+
+git add .
+
+git commit -m "first commit"
+
+git status
+
+git push origin master
+
+enter username : prakhar877078
+enter passcode : token
+check the code at remote side
+code will be visible in master branch at remote
+
